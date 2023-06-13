@@ -1,0 +1,6 @@
+FROM python:alpine
+
+WORKDIR /function
+COPY src .
+
+CMD python function.py
